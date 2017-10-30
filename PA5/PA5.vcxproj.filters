@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{593ae2fd-3512-4dd6-ae52-42ce0cf59e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Tests">
+      <UniqueIdentifier>{c1776a87-ec6f-4138-bdc6-272f7ff41428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Do NOT Modify">
+      <UniqueIdentifier>{7bf6f15a-b713-48cd-8258-ad790e90bbae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modify these files">
+      <UniqueIdentifier>{7733924c-1d9f-403f-96c8-3b7c1d83ae3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modify these files\SIMD">
+      <UniqueIdentifier>{e4dad0fa-2460-4dd0-aa13-aa4c1b3dcaa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modify these files\NON-SIMD">
+      <UniqueIdentifier>{dba984c9-fa72-4392-982f-c50adaaec3ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Framework\Timer.cpp">
+      <Filter>_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\UnitTest.cpp">
+      <Filter>_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Do NOT Modify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\FileIO.cpp">
+      <Filter>_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Unit_Col_Major.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Unit_LERP.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Unit_Matrix.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Unit_Matrix_Vect.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Unit_Row_Major.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Unit_Vect_Matrix.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Unit_Vect4D.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\PerformanceTest.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="LERP.cpp">
+      <Filter>Source Files\Modify these files\NON-SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files\Modify these files\NON-SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect4D.cpp">
+      <Filter>Source Files\Modify these files\NON-SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="LERP_SIMD.cpp">
+      <Filter>Source Files\Modify these files\SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_SIMD.cpp">
+      <Filter>Source Files\Modify these files\SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect4D_SIMD.cpp">
+      <Filter>Source Files\Modify these files\SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_ColMajorCPP.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_ColMajorSIMD.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_RowMajorCpp.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_RowMajorSIMD.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_LERPCpp.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_LERPSIMD.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_MatrixVectCpp.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_MatrixVectSIMD.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_VectMatrixCpp.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_VectMatrixSIMD.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_MatrixCpp.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_MatrixSIMD.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_VectCpp.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Performance_VectSIMD.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Framework\MemTracker.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\MemTrackerMain.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\Timer.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\Trace.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\UnitTest.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\FileIO.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Test\PerformanceTest.h">
+      <Filter>_Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="LERP.h">
+      <Filter>Source Files\Modify these files\NON-SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Source Files\Modify these files\NON-SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect4D.h">
+      <Filter>Source Files\Modify these files\NON-SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="LERP_SIMD.h">
+      <Filter>Source Files\Modify these files\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix_SIMD.h">
+      <Filter>Source Files\Modify these files\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect4D_SIMD.h">
+      <Filter>Source Files\Modify these files\SIMD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+    <None Include="..\Test\__DO NOT MODIFY__">
+      <Filter>_Tests</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+﻿  FileIO.cpp
+  Timer.cpp
+  UnitTest.cpp
+  PerformanceTest.cpp
+  Performance_ColMajorSIMD.cpp
+  Performance_LERPSIMD.cpp
+  Performance_MatrixSIMD.cpp
+  Performance_MatrixVectSIMD.cpp
+  Performance_RowMajorSIMD.cpp
+  Performance_VectMatrixSIMD.cpp
+  Unit_Col_Major.cpp
+  Unit_LERP.cpp
+  Unit_Matrix.cpp
+  Unit_Matrix_Vect.cpp
+  Unit_Row_Major.cpp
+  Unit_Vect4D.cpp
+  Unit_Vect_Matrix.cpp
+  LERP.cpp
+  LERP_SIMD.cpp
+  Matrix.cpp
+  Matrix_SIMD.cpp
+  Vect4D.cpp
+  Vect4D_SIMD.cpp
+  Performance_ColMajorCPP.cpp
+  Performance_LERPCpp.cpp
+  Performance_MatrixCpp.cpp
+  Performance_MatrixVectCpp.cpp
+  Performance_RowMajorCpp.cpp
+  Performance_VectCpp.cpp
+  Performance_VectMatrixCpp.cpp
+  Performance_VectSIMD.cpp
+  main.cpp
+  PA5.vcxproj -> C:\Users\Elliot Trapp\Documents\Workspaces\CSC461\student\etrapp\PA5\Release\SIMD.exe
+  PA5.vcxproj -> C:\Users\Elliot Trapp\Documents\Workspaces\CSC461\student\etrapp\PA5\Release\SIMD.pdb (Full PDB)
